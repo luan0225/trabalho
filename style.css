@@ -112,3 +112,42 @@ h2 {
     color: #fff;
     font-size: 0.9rem;
 }
+
+/* Media Queries para Telas Menores (Celulares) */
+@media (max-width: 768px) {
+    /* Estilos do Cabeçalho */
+    .header-container {
+        flex-direction: column; /* Organiza a logo e o título em colunas */
+        text-align: center;
+        gap: 10px; /* Reduz o espaço entre os elementos */
+    }
+
+    .logo {
+        width: 100px; /* Reduz o tamanho da logo */
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Reduz o tamanho da fonte do título principal */
+    }
+
+    /* Estilos das Seções */
+    section {
+        padding: 30px 15px; /* Reduz o espaçamento interno das seções */
+        margin-bottom: 20px; /* Reduz o espaço entre as seções */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Reduz o tamanho do título da seção */
+    }
+
+    /* Estilos da Equipe */
+    .team-list {
+        flex-direction: column; /* Organiza os nomes da equipe em uma única coluna */
+        gap: 10px;
+    }
+
+    .team-list li {
+        width: 100%;
+        box-sizing: border-box; /* Garante que o padding não afete a largura */
+    }
+}
