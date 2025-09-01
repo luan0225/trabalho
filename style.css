@@ -1,0 +1,122 @@
+/* Importa a fonte do Google Fonts para um visual mais moderno */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos globais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    background-color: #004d99; /* Azul escuro, cor institucional */
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 80px; /* Tamanho da logo */
+    height: auto;
+}
+
+/* Estilos para as seções */
+.main-content {
+    width: 100%;
+    max-width: 960px; /* Largura máxima do conteúdo */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #004d99;
+}
+
+/* Estilos do vídeo */
+.video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos da lista da equipe */
+.team-list {
+    list-style-type: none; /* Remove os pontos da lista */
+    padding: 0;
+}
+
+.team-list li {
+    background-color: #e6f2ff; /* Um azul claro para os nomes */
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+/* Estilos do rodapé */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ddd;
+    margin-top: auto;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    background-color: #004d99; /* Azul escuro, cor institucional */
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* Alteração: Container do cabeçalho para alinhar a logo e o texto */
+.header-container {
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens ao lado esquerdo */
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px; /* Adiciona um espaço nas laterais para a logo não ficar colada na borda */
+}
+
+/* Alteração: Tamanho da logo maior */
+.logo {
+    width: 240px; /* Aumenta o tamanho da logo */
+    height: auto;
+}
+
+/* Manter o estilo do título para que ele continue centrado */
+h1 {
+    color: #004d99;
+    text-align: center; /* Centraliza o título */
+    flex-grow: 1; /* Permite que o título ocupe o espaço restante */
+}
